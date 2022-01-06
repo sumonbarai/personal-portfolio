@@ -1,0 +1,163 @@
+/*----------------------------------------------------
+
+Template Name   : personal portfolio website
+Description     : this is my first website 
+Author          : sumon barai
+Email           : sumonbarai78@gmail.com
+Version         :
+
+------------------------------------------------------
+    ==============
+     CSS INDEX
+    ==============
+    1. common css
+    2. header area
+    3. service-area
+
+/*---- common css
+============================================= */
+/* #F6715B */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+html {
+    font-size: 62.5%;
+}
+
+p{
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;  
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+/* input:focus,
+textarea:focus{
+    outline: 0;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;   
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.section-padding {
+    padding: 70px 0;
+}
+.flex-container {
+    display: flex;
+}
+.section-btn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(246, 113, 91), rgb(255, 217, 0));
+    padding: 11px 31px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.section-title {
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.section-title span{
+    color: #F6715B;
+}
+
+/*---- header area
+============================================= */
+.header-area {
+    /* background-color: orange; */
+    background-color: #fff;
+    height: 80vh;
+}
+.header-area .title-area {
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.header-area .title-area .border-area {
+    border-left: 5px solid;
+    border-image: linear-gradient(#F6715B, rgb(255, 217, 0));
+    border-image-slice: 1;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.header-area .title-area .border-area span{
+    color: #F6715B;
+    font-size: 25px;
+}
+.header-area .title-area .border-area h1{
+    font-size: 55px;
+    text-transform: capitalize;
+}
+.header-area .title-area .border-area h2{
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.header-area .title-area .border-area h2 span{
+    color: #F6715B;
+    font-size: 45px;
+}
+.header-area .title-area p{
+    font-size: 17px;
+    max-width: 60%;
+    color: rgb(128, 121, 121);
+}
+.header-area .title-area > span{
+    display: block;
+    color: rgb(128, 121, 121);
+    font-size: 17px;
+    padding-top: 10px;
+}
+.header-area .title-area .section-btn {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.header-area .img-area {
+    width: 50%;
+}
+.header-area .img-area img {
+    width: 50rem;
+    margin-top: -75px;
+}
+
+/*---- service-area
+============================================= */
+.service-area {
+    background-color: #fff;
+}
+.service-area .service-items .card .card-log {
+    width: 100px;
+}
+.service-area .service-items .card .card-log img{
+    width: 100%;
+}
