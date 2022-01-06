@@ -15,7 +15,8 @@ Version         :
     3. service-area
     4. documentation area
     5. Community area
-    6. footer area
+    6. contact area
+    7. footer area
 
 /*---- common css
 ============================================= */
@@ -48,11 +49,11 @@ a:hover {
     text-decoration: none;
 }
 
-/* input:focus,
+input:focus,
 textarea:focus{
     outline: 0;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-} */
+}
 
 h1,
 h2,
@@ -65,7 +66,7 @@ h6 {
 }
 
 .container {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 15px;
 
@@ -89,6 +90,9 @@ h6 {
     border-radius: 5px;
     font-size: 20px;
 }
+.section-btn:hover {
+    background-image: linear-gradient(rgb(255, 217, 0),rgb(246, 113, 91));
+}
 
 .section-title {
     font-size: 50px;
@@ -105,7 +109,7 @@ h6 {
 ============================================= */
 .header-area {
     /* background-color: orange; */
-    background-color: #fff;
+    background-color: orange;
 }
 
 .header-area .title-area {
@@ -290,6 +294,63 @@ h6 {
 .Community-area .left-area .section-btn {
     margin: 10px 0;
 }
+/*---- contact area
+============================================= */
+.contact-area {
+    background-color: #f7f6f6;
+}
+.contact-area .contact-form-section {
+    margin-top: 40px;
+}
+.contact-area .contact-form-section .contact-left-area {
+    width: 40%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contact-area .contact-form-section .contact-left-area .address,
+.contact-area .contact-form-section .contact-left-area .email, 
+.contact-area .contact-form-section .contact-left-area .phone {
+    margin-bottom: 20px;
+}
+.contact-area .contact-form-section .contact-left-area h6{
+   font-size: 18px;
+   text-transform: uppercase;
+   padding: 5px 0;
+}
+.contact-area .contact-form-section .contact-left-area p{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: rgb(128, 121, 121);
+}
+.contact-area .contact-form-section .contact-right-area {
+    width: 60%;
+    padding: 0 80px;
+}
+.contact-area .contact-form-section .contact-right-area form input,
+.contact-area .contact-form-section .contact-right-area form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid rgb(128, 121, 121);
+    text-transform: capitalize;
+}
+.contact-area .contact-form-section .contact-right-area form input[type="submit"] {
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(246, 113, 91), rgb(255, 217, 0));
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.contact-area .contact-form-section .contact-right-area form input[type="submit"]:hover {
+    background-image: linear-gradient(rgb(255, 217, 0),rgb(246, 113, 91));
+}
+
 
 /*---- footer area
 ============================================= */
