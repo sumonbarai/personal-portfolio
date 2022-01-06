@@ -34,10 +34,6 @@ body {
 
 }
 
-html {
-    font-size: 62.5%;
-}
-
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -67,7 +63,7 @@ h6 {
 
 .container {
     max-width: 1300px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 15px;
 
 }
@@ -108,10 +104,8 @@ h6 {
 /*---- header area
 ============================================= */
 .header-area {
-    /* background-color: orange; */
-    background-color: orange;
+   background-color: #75dbe336; 
 }
-
 .header-area .title-area {
     width: 50%;
     padding-top: 100px;
@@ -169,7 +163,7 @@ h6 {
 }
 
 .header-area .img-area img {
-    width: 50rem;
+    width: 85%;
     margin-top: -75px;
 }
 
@@ -216,8 +210,6 @@ h6 {
 }
 
 .service-area .service-items .card p {
-
-    /* color: rgb(128, 121, 121); */
     text-align: justify;
 }
 
