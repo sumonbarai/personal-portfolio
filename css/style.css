@@ -63,7 +63,7 @@ h6 {
     font-weight: 700;   
 }
 .container {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     
 }
@@ -72,6 +72,7 @@ h6 {
 }
 .flex-container {
     display: flex;
+    justify-content: space-around;
 }
 .section-btn {
     display: inline-block;
@@ -155,9 +156,38 @@ h6 {
 .service-area {
     background-color: #fff;
 }
+.service-area .service-items {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    min-height: 300px;
+}
+#card-item-color-1 {
+    background-color: #cccaeb9e;
+}
+#card-item-color-2 {
+    background-color: #75dbe336;
+}
+#card-item-color-3 {
+    background-color: #e7d0a078;
+}
 .service-area .service-items .card .card-log {
     width: 100px;
 }
 .service-area .service-items .card .card-log img{
     width: 100%;
+}
+.service-area .service-items .card h3{
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.service-area .service-items .card p{
+    font-size: 15px;
+    margin: 5px 0;
+    /* color: rgb(128, 121, 121); */
+    text-align: justify;
 }
