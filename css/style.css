@@ -13,6 +13,7 @@ Version         :
     1. common css
     2. header area
     3. service-area
+    4. documentation area
 
 /*---- common css
 ============================================= */
@@ -38,7 +39,7 @@ p{
     font-family: 'Fira Code', monospace;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;  
 }
 a,
@@ -63,7 +64,7 @@ h6 {
     font-weight: 700;   
 }
 .container {
-    width: 85%;
+    width: 1300px;
     margin: 0 auto;
     
 }
@@ -78,14 +79,14 @@ h6 {
     display: inline-block;
     color: rgb(255, 255, 255);
     background-image: linear-gradient(rgb(246, 113, 91), rgb(255, 217, 0));
-    padding: 11px 31px;
+    padding: 16px 40px;
     text-transform: capitalize;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .section-title {
-    font-size: 40px;
+    font-size: 50px;
     text-transform: capitalize;
     text-align: center;
 }
@@ -98,7 +99,6 @@ h6 {
 .header-area {
     /* background-color: orange; */
     background-color: #fff;
-    height: 80vh;
 }
 .header-area .title-area {
     width: 50%;
@@ -114,23 +114,23 @@ h6 {
 }
 .header-area .title-area .border-area span{
     color: #F6715B;
-    font-size: 25px;
+    font-size: 28px;
 }
 .header-area .title-area .border-area h1{
-    font-size: 55px;
+    font-size: 60px;
     text-transform: capitalize;
 }
 .header-area .title-area .border-area h2{
-    font-size: 45px;
+    font-size: 50px;
     text-transform: capitalize;
 }
 .header-area .title-area .border-area h2 span{
     color: #F6715B;
     font-size: 45px;
 }
-.header-area .title-area p{
-    font-size: 17px;
-    max-width: 60%;
+.header-area .title-area p {
+    font-size: 21px;
+    max-width: 90%;
     color: rgb(128, 121, 121);
 }
 .header-area .title-area > span{
@@ -158,7 +158,7 @@ h6 {
 }
 .service-area .service-items {
     width: 30%;
-    padding: 20px;
+    padding: 35px;
     border-radius: 10px;
     margin-top: 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -186,8 +186,38 @@ h6 {
     margin-bottom: 10px;
 }
 .service-area .service-items .card p{
-    font-size: 15px;
-    margin: 5px 0;
+    
     /* color: rgb(128, 121, 121); */
     text-align: justify;
+}
+
+/*---- documentation area
+============================================= */
+.documentation-area {
+    background-color: #fff;
+}
+.documentation-area .left-area {
+    width: 40%;
+}
+.documentation-area .left-area img{
+    width: 90%;
+}
+.documentation-area .right-area {
+    width: 60%;
+    padding: 50px 30px;
+}
+.documentation-area .right-area h2 {
+    text-align: left;  
+}
+.documentation-area .right-area h2 span{
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.documentation-area .right-area p{
+    color: rgb(128, 121, 121);
+    padding-bottom: 10px;
+}
+.documentation-area .right-area .section-btn{
+    margin: 10px 0;
 }
