@@ -14,38 +14,40 @@ Version         :
     2. header area
     3. service-area
     4. documentation area
+    5. Community area
+    6. footer area
 
 /*---- common css
 ============================================= */
 /* #F6715B */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Fira Code', monospace;
-    font-family: 'Poppins', sans-serif;
+
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
 
 }
+
 html {
     font-size: 62.5%;
 }
 
-p{
-    font-family: 'Fira Code', monospace;
-    font-family: 'Poppins', sans-serif;
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-weight: 400;  
+    font-weight: 400;
 }
+
 a,
-a:hover{
+a:hover {
     text-decoration: none;
 }
+
 /* input:focus,
 textarea:focus{
     outline: 0;
@@ -58,23 +60,26 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Fira Code', monospace;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;   
+    font-weight: 700;
 }
+
 .container {
     width: 1300px;
     margin: 0 auto;
-    
+    padding: 0 15px;
+
 }
+
 .section-padding {
     padding: 70px 0;
 }
+
 .flex-container {
     display: flex;
     justify-content: space-around;
 }
+
 .section-btn {
     display: inline-block;
     color: rgb(255, 255, 255);
@@ -90,8 +95,10 @@ h6 {
     text-transform: capitalize;
     text-align: center;
 }
-.section-title span{
+
+.section-title span {
     color: #F6715B;
+    font-size: 40px;
 }
 
 /*---- header area
@@ -100,11 +107,13 @@ h6 {
     /* background-color: orange; */
     background-color: #fff;
 }
+
 .header-area .title-area {
     width: 50%;
     padding-top: 100px;
     padding-left: 100px;
 }
+
 .header-area .title-area .border-area {
     border-left: 5px solid;
     border-image: linear-gradient(#F6715B, rgb(255, 217, 0));
@@ -112,40 +121,49 @@ h6 {
     padding-left: 15px;
     margin-bottom: 30px;
 }
-.header-area .title-area .border-area span{
+
+.header-area .title-area .border-area span {
     color: #F6715B;
     font-size: 28px;
 }
-.header-area .title-area .border-area h1{
+
+.header-area .title-area .border-area h1 {
     font-size: 60px;
     text-transform: capitalize;
 }
-.header-area .title-area .border-area h2{
+
+.header-area .title-area .border-area h2 {
     font-size: 50px;
     text-transform: capitalize;
 }
-.header-area .title-area .border-area h2 span{
+
+.header-area .title-area .border-area h2 span {
     color: #F6715B;
     font-size: 45px;
 }
+
 .header-area .title-area p {
     font-size: 21px;
     max-width: 90%;
     color: rgb(128, 121, 121);
 }
-.header-area .title-area > span{
+
+.header-area .title-area>span {
     display: block;
     color: rgb(128, 121, 121);
     font-size: 17px;
     padding-top: 10px;
 }
+
 .header-area .title-area .section-btn {
     margin-top: 25px;
     margin-bottom: 10px;
 }
+
 .header-area .img-area {
     width: 50%;
 }
+
 .header-area .img-area img {
     width: 50rem;
     margin-top: -75px;
@@ -156,6 +174,7 @@ h6 {
 .service-area {
     background-color: #fff;
 }
+
 .service-area .service-items {
     width: 30%;
     padding: 35px;
@@ -164,29 +183,36 @@ h6 {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     min-height: 300px;
 }
+
 #card-item-color-1 {
     background-color: #cccaeb9e;
 }
+
 #card-item-color-2 {
     background-color: #75dbe336;
 }
+
 #card-item-color-3 {
     background-color: #e7d0a078;
 }
+
 .service-area .service-items .card .card-log {
     width: 100px;
 }
-.service-area .service-items .card .card-log img{
+
+.service-area .service-items .card .card-log img {
     width: 100%;
 }
-.service-area .service-items .card h3{
+
+.service-area .service-items .card h3 {
     text-transform: capitalize;
     font-size: 22px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.service-area .service-items .card p{
-    
+
+.service-area .service-items .card p {
+
     /* color: rgb(128, 121, 121); */
     text-align: justify;
 }
@@ -196,28 +222,98 @@ h6 {
 .documentation-area {
     background-color: #fff;
 }
+
 .documentation-area .left-area {
     width: 40%;
 }
-.documentation-area .left-area img{
+
+.documentation-area .left-area img {
     width: 90%;
 }
+
 .documentation-area .right-area {
     width: 60%;
     padding: 50px 30px;
 }
+
 .documentation-area .right-area h2 {
-    text-align: left;  
+    text-align: left;
 }
-.documentation-area .right-area h2 span{
-  display: block;
-  font-size: 30px;
-  margin-bottom: 10px;
+
+.documentation-area .right-area h2 span {
+    display: block;
+    margin-bottom: 10px;
 }
-.documentation-area .right-area p{
+
+.documentation-area .right-area p {
     color: rgb(128, 121, 121);
     padding-bottom: 10px;
 }
-.documentation-area .right-area .section-btn{
+
+.documentation-area .right-area .section-btn {
     margin: 10px 0;
+}
+
+/*---- Community area
+============================================= */
+.Community-area {
+    background-color: #fff;
+}
+
+.Community-area .right-area {
+    width: 40%;
+}
+
+.Community-area .right-area img {
+    width: 90%;
+}
+
+.Community-area .left-area {
+    width: 60%;
+    padding: 50px 50px 0 0;
+}
+
+.Community-area .left-area h2 {
+    text-align: left;
+}
+
+.Community-area .left-area h2 span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Community-area .left-area p {
+    color: rgb(128, 121, 121);
+    padding-bottom: 10px;
+}
+
+.Community-area .left-area .section-btn {
+    margin: 10px 0;
+}
+
+/*---- footer area
+============================================= */
+.footer-area {
+    background-color: #000000e8;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer-area .mission {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 400;
+}
+
+.footer-area .mission span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #F6715B;
+}
+
+.footer-area .copyright {
+    margin: 15px 0;
+    font-size: 18px;
 }
